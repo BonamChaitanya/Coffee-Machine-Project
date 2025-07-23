@@ -1,31 +1,34 @@
 # ☕ Coffee Machine Simulator
 
-This is a simple terminal-based Coffee Machine Simulator built using Python. The program mimics the functionality of a real coffee vending machine, allowing users to order drinks like espresso, latte, or cappuccino, insert coins, and receive change.
+A terminal-based coffee machine simulation project written in Python and developed using **PyCharm** IDE. This program mimics the behavior of a real coffee vending machine where users can order drinks, insert coins, and receive their beverage with appropriate change.
+
+---
 
 ## 🚀 Features
 
-- Offers 3 drinks: Espresso, Latte, Cappuccino
-- Handles resources like water, milk, and coffee
-- Accepts coins (quarters, dimes, nickels, pennies)
-- Calculates and returns change
-- Tracks profits and inventory
-- Includes a "report" mode to show machine status
-- "off" command shuts down the machine
+- Offers 3 drinks: **Espresso**, **Latte**, **Cappuccino**
+- Handles available resources (water, milk, coffee)
+- Accepts coin input (quarters, dimes, nickels, pennies)
+- Calculates change and tracks profit
+- Prints machine status with `report` command
+- Shuts down with `off` command
+
+---
 
 ## 🧰 Tools & Technologies
 
 - Python 3
-- Console/Terminal I/O
+- PyCharm IDE
+- Console/Terminal Input & Output
 
-## 📂 Files
+---
+## 📸 Sample Interaction
 
-- `main.py` or `solution.py`: Main script to run the coffee machine simulation.
-
-## 🔍 How to Use
-
-1. Run the script in any Python 3 environment.
-2. Choose a drink (espresso/latte/cappuccino).
-3. Insert coins as prompted.
-4. Collect your drink and change.
-5. Use `report` to view current resource status.
-6. Use `off` to power off the machine.
+What would you like? (espresso/latte/cappuccino): espresso
+Please insert coins.
+how many quarters?: 6
+how many dimes?: 0
+how many nickles?: 0
+how many pennies?: 0
+Here is $0.0 in change.
+Here is your espresso ☕️. Enjoy!
